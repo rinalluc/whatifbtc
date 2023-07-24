@@ -9,15 +9,17 @@ This repository contains a web application that allows you to simulate a Bitcoin
 Clone the repository to your local machine or access the web application online.
 https://whatifbtc.com
 
+![WhatIf...Btc](Screenshot_1.png)
+
 Enter the following details in the form:
 
 Monthly Investment (Bitcoin): The amount you want to invest in Bitcoin every month.
-Start Date: The date when you plan to start your investment (format: YYYY-MM-DD).
-End Date: The date when you want to end your investment (format: YYYY-MM-DD). By default, it's set to the current date.
+Start Date: The date when you plan to start your investment (format: YYYY-MM-DD) .
+End Date: The date when you want to end your investment (format: YYYY-MM-DD) . By default, it's set to the current date.
 Click the "Calculate Profit" button to see the potential profit or loss from your investment.
 
 ## Features
-The application fetches historical Bitcoin price data from the bitcoin_prices_daily.csv file, which should be present in the repository root.
+The application fetches historical Bitcoin price data from the bitcoin_prices_daily.csv file [(From 2012-01-01) - (To 2023-07-22)], which should be present in the repository root.
 The data is then filtered based on the specified start and end dates.
 Monthly investments are simulated using the provided investment amount, and the profit or loss is calculated for each month.
 The total investment amount, total exit amount, and the overall profit or loss are displayed at the end.
