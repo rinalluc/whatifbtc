@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aligned-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.box {
+    flex: 1 1 25%;
+    /* Change this value to adjust the width of boxes */
+    padding: 20px;
+    border: 1px solid #f7931a;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+}
+
+.results-box {
+    flex: 1 1 300px;
+    /* Set a minimum width of 300px for each result */
+    padding: 20px;
+    border: 1px solid #f7931a;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+}
+
+h2 {
+    color: #f7931a;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #f7931a;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7931a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f37021;
+}
+
+::placeholder {
+    color: #c0c0c0;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.green {
+    color: #00ff00;
+}
+
+.yellow {
+    color: yellow;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 20px;
+        /* Adjust the font size for mobile devices */
+    }
+
+    .flex-container {
+        flex-direction: column;
+        /* Stack the boxes vertically on small screens */
+    }
+
+    .box,
+    .results-box {
+        flex: 1 1 100%;
+        /* Make the boxes take full width on mobile devices */
+    }
+}
