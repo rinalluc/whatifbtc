@@ -6,8 +6,6 @@ This repository contains a web application that allows you to simulate a Bitcoin
 Clone the repository to your local machine or access the web application online.
 https://whatifbtc.com
 
-Open index.php in your web browser.
-
 Enter the following details in the form:
 
 Monthly Investment (Bitcoin): The amount you want to invest in Bitcoin every month.
