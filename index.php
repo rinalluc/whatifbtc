@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>What if...Btc</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php
