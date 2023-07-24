@@ -1,4 +1,7 @@
-# WhatIf...Btc
+# ![WhatIf...Btc](favicon.ico) WhatIf...Btc 
+
+
+
 
 This repository contains a web application that allows you to simulate a Bitcoin accumulation plan based on historical price data. By providing the monthly investment amount and the start and end dates, the application calculates the potential profit or loss from the investment over the specified period.
 
