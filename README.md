@@ -7,7 +7,7 @@ This repository contains a web application that allows you to simulate a Bitcoin
 
 ## How to Use
 Clone the repository to your local machine or access the web application online.
-https://whatifbtc.com
+
 
 ![WhatIf...Btc](Screenshot_1.png)
 
